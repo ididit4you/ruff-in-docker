@@ -11,4 +11,4 @@ ENV PYTHONFAULTHANDLER=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=on \
     PIP_DEFAULT_TIMEOUT=100
 
-RUN pip install --upgrade pip && pip install "ruff==0.0.247"
+RUN pip install --upgrade pip && pip install "ruff==0.0.261"
